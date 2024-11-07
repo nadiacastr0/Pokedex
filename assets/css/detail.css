@@ -1,0 +1,129 @@
+/* cores */
+.normal {
+    background-color:  #A6A877;
+}
+.grass {
+    background-color:  #77C850;
+}
+.fire {
+    background-color:  #EE7F30;
+}
+.water {
+    background-color:  #678FEE;
+}
+.electric {
+    background-color:  #F7C72E;
+}
+.ice {
+    background-color:  #98D5D7;
+}
+.ground {
+    background-color:  #DFBF69;
+}
+.flying {
+    background-color: #A98ff0;
+}
+.poison {
+    background-color:  #A040A0;
+}
+.fighting {
+    background-color:  #BF3020;
+}
+.psychic {
+    background-color: #f65687;
+} 
+.dark {
+    background-color: #725847;
+}
+.rock {
+    background-color: #B8A137;
+}
+.bug {
+    background-color: #A8B720;
+}
+.ghost {
+    background-color: #6E5896;
+}
+.steel {
+    background-color: #B9B7CF;
+}
+.dragon {
+    background-color: #6F38F6;
+}
+.fairy {
+    background-color: #F9AEC7;
+}
+
+.content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+#pokemonDetail {
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;    
+    display: grid;
+}
+
+#pokemonImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#pokemonTypes, #pokemonNumber, #pokemonAbilities, #pokemonHeight, #pokemonWeight {
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+#pokemonTypes {
+    font-weight: bold;
+}
+
+a {
+    display: inline-block;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem .5rem;
+    margin: .25rem 0;
+    background-color: #00ced1;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #48d1cc;
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 15px;
+    }
+
+    #pokemonImage {
+        width: 150px;
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}

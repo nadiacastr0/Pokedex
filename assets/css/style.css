@@ -52,8 +52,8 @@
 }
 .fairy {
     background-color: #F9AEC7;
-
 }
+
 body {
     background-color: #F6F8FC;
 }
@@ -97,6 +97,11 @@ body {
     color: #fff;
     margin-bottom: 0;
     text-transform: capitalize;
+}
+
+.pokemon .name a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .pokemon .types {
@@ -145,6 +150,25 @@ body {
     border-radius: 1rem;
     padding: .25rem .5rem;
     margin: .25rem 0;
+}
+
+.voltar {
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem .5rem;
+    margin: 1rem 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.voltar:hover {
+    background-color: #A98ff0;
+}
+
+#pokemonName {text-transform: capitalize;
 }
 
 @media screen and (min-width: 380px){
